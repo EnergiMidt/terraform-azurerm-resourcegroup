@@ -24,7 +24,7 @@ variable "name" {
 
 variable "override_name" {
   description = "(Optional) Override the name of the resource. Under normal circumstances, it should not be used."
-  default     = ""
+  default     = null
   type        = string
 }
 
