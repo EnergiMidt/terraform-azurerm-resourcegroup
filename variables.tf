@@ -33,15 +33,3 @@ variable "tags" {
   default     = {}
   type        = map(string)
 }
-
-variable "timeouts" {
-  type = set(object(
-    {
-      create = string
-      delete = string
-      read   = string
-      update = string
-    }
-  ))
-  default = []
-}
