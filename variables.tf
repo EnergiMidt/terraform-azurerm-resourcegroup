@@ -1,6 +1,5 @@
 variable "environment" {
   description = "(Required) The name of the environment."
-  default     = null
   type        = string
   validation {
     condition = contains([
